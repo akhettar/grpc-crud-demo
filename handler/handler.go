@@ -2,8 +2,8 @@ package handler
 
 import (
 	"context"
-	"github.com/cirtak/crud-grpc/api"
-	"github.com/cirtak/crud-grpc/repository"
+	"github.com/akhettar/grpc-crud-demo/api"
+	"github.com/akhettar/grpc-crud-demo/repository"
 	"github.com/golang/protobuf/ptypes/empty"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

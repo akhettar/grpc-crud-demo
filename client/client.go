@@ -25,7 +25,7 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"github.com/cirtak/crud-grpc/api"
+	"github.com/akhettar/grpc-crud-demo/api"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/testdata"

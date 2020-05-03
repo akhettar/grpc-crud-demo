@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/cirtak/crud-grpc/api"
-	"github.com/cirtak/crud-grpc/handler"
+	"github.com/akhettar/grpc-crud-demo/api"
+	"github.com/akhettar/grpc-crud-demo/handler"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/testdata"
