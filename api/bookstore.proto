@@ -1,22 +1,19 @@
-# CRUD service implemented in gRPC
+// Copyright 2016 Google Inc. All Rights Reserved.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//
+////////////////////////////////////////////////////////////////////////////////
 
-This is a simple demo of implementing a bookstore service using gRPC framework - see below protobuf file. 
-
-
-# How to run the demo
-
-You can run the server by running the following commands:
-
-`go run main.go` // this will fire up the server
-
-`go run client/client.go` // this will fire up the client
-
-
-# Service API definition
-
-The api definition is defined in proto file - see below
-
-```proto
 syntax = "proto3";
 
 package api;
@@ -122,5 +119,3 @@ message DeleteBookRequest {
     // The ID of the book to delete.
     int64 book = 2;
 }
-```
-
